@@ -418,10 +418,16 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 25px 100px;
+  width: 270px;
+  height: 120px;
   background: var(--bg-light-cl);
   border-radius: 4px;
   margin-bottom: 30px;
+}
+
+.about-svg {
+  width: 70px;
+  height: 70px;
 }
 
 .we-do {
@@ -540,6 +546,10 @@ img {
   margin-bottom: 30px;
 } */
 
+.team-list .item {
+  background-color: var(--bg-white-cl);
+}
+
 .address-list .item {
   margin-bottom: 9px;
 }
@@ -590,7 +600,7 @@ img {
 }
 
 .sm-bot-links:hover,
-.links-bot:focus {
+.sm-bot-links:focus {
   background-color: var(--text-accent-cl);
 }
 
