@@ -20,6 +20,8 @@
   --border-header-box: rgba(236, 236, 236, 1);
   --shadow-item-box: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  --shadow-por-item: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
   --about-br: 4px;
   --padding-footer: 60px;
@@ -290,14 +292,18 @@ img {
 .por-links {
   text-decoration: none;
   color: inherit;
-  background-color: red;
 }
 
-.shadow:hover,
-.shadow:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+.por-links:hover,
+.por-links:focus {
+  display: flex;
+  box-shadow: var(--shadow-item-box);
 }
+
+/* .shadow:hover,
+.shadow:focus {
+  box-shadow: var(--shadow-item-box);
+} */
 
 .address {
   font-style: normal;
