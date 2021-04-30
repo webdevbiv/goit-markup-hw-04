@@ -296,7 +296,7 @@ img {
 
 .por-links:hover,
 .por-links:focus {
-  display: flex;
+  display: inline-block;
   box-shadow: var(--shadow-item-box);
 }
 
